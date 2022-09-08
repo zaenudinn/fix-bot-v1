@@ -7,9 +7,9 @@ import moment from 'moment-timezone'
 import { group } from 'console'
 
 /*============= WAKTU =============*/
-let wibh = moment.tz('Asia/Jakarta').format('HH')
-    let wibm = moment.tz('Asia/Jakarta').format('mm')
-    let wibs = moment.tz('Asia/Jakarta').format('ss')
+let wibh = moment.tz('Asia/lombok timur').format('HH')
+    let wibm = moment.tz('Asia/lombok timur').format('mm')
+    let wibs = moment.tz('Asia/lombok timur').format('ss')
     let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
     
     let d = new Date(new Date + 3600000)
